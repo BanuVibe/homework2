@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 24px 16px;
+  background-color: #eef1f6;
+  color: #1f2433;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0 0 12px;
+  color: #23305a;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  margin-bottom: 32px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #23305a;
+  border-radius: 8px;
+}
+
+.info {
+  margin: 0 0 8px;
+}
+
+.form {
+  margin-top: 32px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #9aa3bd;
+  border-radius: 8px;
+}
+
+.button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background-color: #23305a;
+  color: #ffffff;
+  border: 1px solid #23305a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.program {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #e6ecfb;
+  border: 1px solid #b5c2e8;
+}
+
+.error {
+  margin: 12px 0;
+  padding: 10px;
+  background-color: #fdeaea;
+  color: #a12020;
+  border: 1px solid #e3a3a3;
+}
+
+.result {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #e8f6ea;
+  border: 1px solid #9fd1a7;
+}
+
+.json {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px dashed #999999;
+  white-space: pre-wrap;
+}

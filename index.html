@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ночь в музее</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <h1 id="event-title">Ночь в музее</h1>
+      <p class="info">15 ноября, 18:30</p>
+      <p class="info">Музей космонавтики, проспект Мира, 111</p>
+      <p class="info">Вечерняя программа с выставкой и экскурсиями</p>
+
+      <button type="button" id="show-program" class="button">Показать программу</button>
+      <div id="program" class="program" hidden></div>
+    </section>
+
+    <p id="data-error" class="error" hidden></p>
+
+    <form id="service-form" class="form" hidden>
+      <h2>Дополнительные услуги</h2>
+      <p>
+        <input type="checkbox" id="guide" name="guide">
+        <label for="guide">Экскурсия с гидом</label>
+      </p>
+      <p>
+        <input type="checkbox" id="audio" name="audio">
+        <label for="audio">Аудиогид</label>
+      </p>
+      <p>
+        <input type="checkbox" id="catalog" name="catalog">
+        <label for="catalog">Каталог выставки</label>
+      </p>
+      <button type="submit" class="button">Рассчитать</button>
+
+      <p id="choice-error" class="error" hidden></p>
+      <div id="result" class="result" hidden></div>
+      <pre id="report-json" class="json" hidden></pre>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
